@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-30T00:04:17.576Z",
+        "line": 8,
+        "name": "search second item then move to checkout page",
+        "description": "",
+        "id": "search-and-place-order;search-second-item-then-move-to-checkout-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18462000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on landing page",
+            "match": {
+              "location": "com.myntra.stepdefination.StepDefs.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2959000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user search for \"Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dress\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.myntra.stepdefination.StepDefs.user_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4248000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Dress\" results are display on page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dress\"",
+                  "offset": 0
+                }
+              ],
+              "location": "com.myntra.stepdefination.StepDefs.results_are_display_on_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 1, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:659)\r\n\tat java.util.ArrayList.get(ArrayList.java:435)\r\n\tat com.myntra.stepdefination.StepDefs.user_select_brand_and_dress(StepDefs.java:58)\r\n\tat ✽.user select brand and dress(classpath:features/File_Frist.feature:12)\r\n",
+              "duration": 164000000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user select brand and dress",
+            "match": {
+              "location": "com.myntra.stepdefination.StepDefs.user_select_brand_and_dress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User proceeded to ckeckout page for perchess",
+            "match": {
+              "location": "com.myntra.stepdefination.StepDefs.user_proceeded_to_ckeckout_page_for_perchess()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@second"
+          }
+        ]
+      }
+    ],
+    "name": "Search and place order",
+    "description": "",
+    "id": "search-and-place-order",
+    "keyword": "Feature",
+    "uri": "classpath:features/File_Frist.feature",
+    "tags": []
+  }
+]

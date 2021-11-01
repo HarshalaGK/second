@@ -1,0 +1,4 @@
+com\myntra\stapdefination\Hooks.class
+com\myntra\stapdefination\StepDefs.class
+com\myntra\core\Base.class
+com\myntra\runner\Test_Runner.class

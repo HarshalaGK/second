@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: com.myntra.runner.Test_Runner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.647 sec <<< FAILURE!
+Search for iteam and validate result(Search and place order for vegetables)  Time elapsed: 0.349 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'User is on Greenkard landing page' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is on Greenkard landing page")
+public void user_is_on_greenkard_landing_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("user search for {string} vegetable")
+public void user_search_for_vegetable(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{string} results are display")
+public void results_are_display(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
